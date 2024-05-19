@@ -11,7 +11,7 @@ extension View {
     @ViewBuilder
     func hSpacing(_ aligment: Alignment = .center) -> some View {
         self
-        .frame(maxWidth: .infinity, alignment: .leading)
+        .frame(maxWidth: .infinity, alignment: aligment)
     }
     
     @ViewBuilder
